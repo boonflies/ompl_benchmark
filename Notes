@@ -1,0 +1,10 @@
+To build:
+g++ -std=c++11 -o benchmark_planners SE3RigidBodyPlanningBenchmark.cpp -I/usr/local/include/ompl-1.6 -I/usr/include/eigen3 -L/usr/local/lib -lompl -lompl_app_base -lompl_app -lboost_system
+
+
+To run:
+.\benchmark_planners
+
+
+To create result database from logfile.log:
+python3 /home/boon/catkin_kavaraki/kavaraki/src/ompl/scripts/ompl_benchmark_statistics.py logfile.log -d mydatabase.db
