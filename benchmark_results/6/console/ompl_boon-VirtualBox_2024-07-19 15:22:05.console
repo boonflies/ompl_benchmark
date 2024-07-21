@@ -1,0 +1,1286 @@
+Info:    Beginning benchmark
+Info:    Preparing for run 0 of geometric_RRTstar
+Info:    Executing pre-run event for run 0 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2512.46 in 3802 iterations (132 vertices in the graph)
+Info:    RRTstar: Created 5677 new states. Checked 14302932 rewire options. 1 goal states in tree. Final solution cost 1824.302
+Info:    SimpleSetup: Path simplification took 0.237122 seconds and changed from 22 to 28 states
+Info:    Executing post-run event for run 0 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_RRTstar
+Info:    Executing pre-run event for run 1 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2112.01 in 9089 iterations (340 vertices in the graph)
+Info:    RRTstar: Created 6021 new states. Checked 15635488 rewire options. 1 goal states in tree. Final solution cost 1823.487
+Info:    SimpleSetup: Path simplification took 0.250650 seconds and changed from 22 to 30 states
+Info:    Executing post-run event for run 1 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_RRTstar
+Info:    Executing pre-run event for run 2 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2126.50 in 5041 iterations (265 vertices in the graph)
+Info:    RRTstar: Created 6425 new states. Checked 17211637 rewire options. 1 goal states in tree. Final solution cost 1805.163
+Info:    SimpleSetup: Path simplification took 0.242502 seconds and changed from 24 to 28 states
+Info:    Executing post-run event for run 2 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_RRTstar
+Info:    Executing pre-run event for run 3 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2230.82 in 3703 iterations (174 vertices in the graph)
+Info:    RRTstar: Created 6135 new states. Checked 16079052 rewire options. 1 goal states in tree. Final solution cost 1758.347
+Info:    SimpleSetup: Path simplification took 0.216710 seconds and changed from 22 to 25 states
+Info:    Executing post-run event for run 3 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_RRTstar
+Info:    Executing pre-run event for run 4 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2447.76 in 3672 iterations (210 vertices in the graph)
+Info:    RRTstar: Created 6358 new states. Checked 16949442 rewire options. 1 goal states in tree. Final solution cost 1769.890
+Info:    SimpleSetup: Path simplification took 0.294360 seconds and changed from 22 to 29 states
+Info:    Executing post-run event for run 4 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_RRTstar
+Info:    Executing pre-run event for run 5 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2205.84 in 3257 iterations (231 vertices in the graph)
+Info:    RRTstar: Created 6342 new states. Checked 16886875 rewire options. 1 goal states in tree. Final solution cost 1784.927
+Info:    SimpleSetup: Path simplification took 0.172400 seconds and changed from 20 to 27 states
+Info:    Executing post-run event for run 5 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_RRTstar
+Info:    Executing pre-run event for run 6 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2235.07 in 5552 iterations (171 vertices in the graph)
+Info:    RRTstar: Created 6003 new states. Checked 15565539 rewire options. 1 goal states in tree. Final solution cost 1792.489
+Info:    SimpleSetup: Path simplification took 0.211181 seconds and changed from 22 to 24 states
+Info:    Executing post-run event for run 6 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_RRTstar
+Info:    Executing pre-run event for run 7 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2365.00 in 4491 iterations (187 vertices in the graph)
+Info:    RRTstar: Created 6097 new states. Checked 15931091 rewire options. 1 goal states in tree. Final solution cost 1805.072
+Info:    SimpleSetup: Path simplification took 0.296384 seconds and changed from 27 to 32 states
+Info:    Executing post-run event for run 7 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_RRTstar
+Info:    Executing pre-run event for run 8 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2269.96 in 4874 iterations (327 vertices in the graph)
+Info:    RRTstar: Created 5984 new states. Checked 15491731 rewire options. 1 goal states in tree. Final solution cost 1800.585
+Info:    SimpleSetup: Path simplification took 0.161298 seconds and changed from 20 to 23 states
+Info:    Executing post-run event for run 8 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_RRTstar
+Info:    Executing pre-run event for run 9 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2214.01 in 6996 iterations (254 vertices in the graph)
+Info:    RRTstar: Created 6284 new states. Checked 16660219 rewire options. 1 goal states in tree. Final solution cost 1759.093
+Info:    SimpleSetup: Path simplification took 0.145209 seconds and changed from 20 to 26 states
+Info:    Executing post-run event for run 9 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_RRTstar
+Info:    Executing pre-run event for run 10 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2133.93 in 4164 iterations (325 vertices in the graph)
+Info:    RRTstar: Created 6342 new states. Checked 16886875 rewire options. 1 goal states in tree. Final solution cost 1808.395
+Info:    SimpleSetup: Path simplification took 0.239790 seconds and changed from 21 to 26 states
+Info:    Executing post-run event for run 10 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_RRTstar
+Info:    Executing pre-run event for run 11 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2249.66 in 10314 iterations (214 vertices in the graph)
+Info:    RRTstar: Created 6260 new states. Checked 16566501 rewire options. 1 goal states in tree. Final solution cost 1796.621
+Info:    SimpleSetup: Path simplification took 0.321101 seconds and changed from 24 to 27 states
+Info:    Executing post-run event for run 11 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_RRTstar
+Info:    Executing pre-run event for run 12 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2350.15 in 4291 iterations (198 vertices in the graph)
+Info:    RRTstar: Created 5941 new states. Checked 15324790 rewire options. 1 goal states in tree. Final solution cost 1776.733
+Info:    SimpleSetup: Path simplification took 0.223462 seconds and changed from 21 to 23 states
+Info:    Executing post-run event for run 12 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_RRTstar
+Info:    Executing pre-run event for run 13 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2270.86 in 3770 iterations (230 vertices in the graph)
+Info:    RRTstar: Created 6515 new states. Checked 17564331 rewire options. 1 goal states in tree. Final solution cost 1787.846
+Info:    SimpleSetup: Path simplification took 0.258816 seconds and changed from 24 to 27 states
+Info:    Executing post-run event for run 13 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_RRTstar
+Info:    Executing pre-run event for run 14 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2313.06 in 4418 iterations (348 vertices in the graph)
+Info:    RRTstar: Created 5911 new states. Checked 15208401 rewire options. 1 goal states in tree. Final solution cost 1801.309
+Info:    SimpleSetup: Path simplification took 0.135064 seconds and changed from 20 to 22 states
+Info:    Executing post-run event for run 14 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_RRTstar
+Info:    Executing pre-run event for run 15 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2117.97 in 4172 iterations (295 vertices in the graph)
+Info:    RRTstar: Created 5989 new states. Checked 15511151 rewire options. 1 goal states in tree. Final solution cost 1797.664
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.246605 seconds and changed from 21 to 27 states
+Info:    Executing post-run event for run 15 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_RRTstar
+Info:    Executing pre-run event for run 16 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2181.64 in 3363 iterations (216 vertices in the graph)
+Info:    RRTstar: Created 5994 new states. Checked 15530574 rewire options. 1 goal states in tree. Final solution cost 1780.057
+Info:    SimpleSetup: Path simplification took 0.192966 seconds and changed from 20 to 23 states
+Info:    Executing post-run event for run 16 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_RRTstar
+Info:    Executing pre-run event for run 17 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2185.83 in 5126 iterations (341 vertices in the graph)
+Info:    RRTstar: Created 6117 new states. Checked 16008952 rewire options. 1 goal states in tree. Final solution cost 1783.800
+Info:    SimpleSetup: Path simplification took 0.216743 seconds and changed from 21 to 25 states
+Info:    Executing post-run event for run 17 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_RRTstar
+Info:    Executing pre-run event for run 18 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2305.32 in 3268 iterations (181 vertices in the graph)
+Info:    RRTstar: Created 6383 new states. Checked 17047239 rewire options. 1 goal states in tree. Final solution cost 1806.936
+Info:    SimpleSetup: Path simplification took 0.209606 seconds and changed from 22 to 26 states
+Info:    Executing post-run event for run 18 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_RRTstar
+Info:    Executing pre-run event for run 19 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2127.55 in 10197 iterations (372 vertices in the graph)
+Info:    RRTstar: Created 6352 new states. Checked 16925976 rewire options. 1 goal states in tree. Final solution cost 1780.489
+Info:    SimpleSetup: Path simplification took 0.195907 seconds and changed from 20 to 25 states
+Info:    Executing post-run event for run 19 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_RRTstar
+Info:    Executing pre-run event for run 20 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2374.91 in 5350 iterations (250 vertices in the graph)
+Info:    RRTstar: Created 6309 new states. Checked 16757885 rewire options. 1 goal states in tree. Final solution cost 1774.122
+Info:    SimpleSetup: Path simplification took 0.243215 seconds and changed from 20 to 32 states
+Info:    Executing post-run event for run 20 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_RRTstar
+Info:    Executing pre-run event for run 21 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2283.54 in 3565 iterations (145 vertices in the graph)
+Info:    RRTstar: Created 6561 new states. Checked 17744811 rewire options. 1 goal states in tree. Final solution cost 1754.866
+Info:    SimpleSetup: Path simplification took 0.207098 seconds and changed from 21 to 24 states
+Info:    Executing post-run event for run 21 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_RRTstar
+Info:    Executing pre-run event for run 22 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2184.88 in 4189 iterations (232 vertices in the graph)
+Info:    RRTstar: Created 6299 new states. Checked 16718814 rewire options. 1 goal states in tree. Final solution cost 1769.122
+Info:    SimpleSetup: Path simplification took 0.197677 seconds and changed from 20 to 21 states
+Info:    Executing post-run event for run 22 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_RRTstar
+Info:    Executing pre-run event for run 23 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2200.22 in 2942 iterations (287 vertices in the graph)
+Info:    RRTstar: Created 6125 new states. Checked 16040104 rewire options. 1 goal states in tree. Final solution cost 1816.404
+Info:    SimpleSetup: Path simplification took 0.181178 seconds and changed from 20 to 21 states
+Info:    Executing post-run event for run 23 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_RRTstar
+Info:    Executing pre-run event for run 24 of planner geometric_RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 2209.50 in 4226 iterations (228 vertices in the graph)
+Info:    RRTstar: Created 5851 new states. Checked 14975831 rewire options. 1 goal states in tree. Final solution cost 1799.119
+Info:    SimpleSetup: Path simplification took 0.165535 seconds and changed from 18 to 19 states
+Info:    Executing post-run event for run 24 of planner geometric_RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 0 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2168.71 in 7837 iterations (371 vertices in the graph)
+Info:    InformedRRTstar: Created 6279 new states. Checked 16640690 rewire options. 1 goal states in tree. Final solution cost 1766.575
+Info:    SimpleSetup: Path simplification took 0.250682 seconds and changed from 22 to 25 states
+Info:    Executing post-run event for run 0 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 1 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2144.44 in 6392 iterations (253 vertices in the graph)
+Info:    InformedRRTstar: Created 5993 new states. Checked 15526689 rewire options. 1 goal states in tree. Final solution cost 1814.788
+Info:    SimpleSetup: Path simplification took 0.240125 seconds and changed from 22 to 27 states
+Info:    Executing post-run event for run 1 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 2 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2317.56 in 5238 iterations (193 vertices in the graph)
+Info:    InformedRRTstar: Created 6159 new states. Checked 16172554 rewire options. 1 goal states in tree. Final solution cost 1799.583
+Info:    SimpleSetup: Path simplification took 0.274454 seconds and changed from 21 to 29 states
+Info:    Executing post-run event for run 2 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 3 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2082.53 in 6694 iterations (464 vertices in the graph)
+Info:    InformedRRTstar: Created 6244 new states. Checked 16504045 rewire options. 1 goal states in tree. Final solution cost 1780.894
+Info:    SimpleSetup: Path simplification took 0.308542 seconds and changed from 22 to 26 states
+Info:    Executing post-run event for run 3 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 4 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2244.61 in 3677 iterations (253 vertices in the graph)
+Info:    InformedRRTstar: Created 6004 new states. Checked 15569424 rewire options. 1 goal states in tree. Final solution cost 1799.577
+Info:    SimpleSetup: Path simplification took 0.275073 seconds and changed from 21 to 23 states
+Info:    Executing post-run event for run 4 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 5 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2349.10 in 3026 iterations (173 vertices in the graph)
+Info:    InformedRRTstar: Created 6116 new states. Checked 16005058 rewire options. 1 goal states in tree. Final solution cost 1796.969
+Info:    SimpleSetup: Path simplification took 0.219858 seconds and changed from 22 to 24 states
+Info:    Executing post-run event for run 5 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 6 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2148.27 in 12253 iterations (339 vertices in the graph)
+Info:    InformedRRTstar: Created 6285 new states. Checked 16664125 rewire options. 1 goal states in tree. Final solution cost 1801.688
+Info:    SimpleSetup: Path simplification took 0.241813 seconds and changed from 24 to 25 states
+Info:    Executing post-run event for run 6 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 7 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2177.73 in 5828 iterations (305 vertices in the graph)
+Info:    InformedRRTstar: Created 6190 new states. Checked 16293391 rewire options. 1 goal states in tree. Final solution cost 1780.151
+Info:    SimpleSetup: Path simplification took 0.181220 seconds and changed from 24 to 25 states
+Info:    Executing post-run event for run 7 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 8 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2174.48 in 6746 iterations (235 vertices in the graph)
+Info:    InformedRRTstar: Created 6147 new states. Checked 16125798 rewire options. 1 goal states in tree. Final solution cost 1820.644
+Info:    SimpleSetup: Path simplification took 0.271157 seconds and changed from 20 to 21 states
+Info:    Executing post-run event for run 8 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 9 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2541.59 in 7639 iterations (148 vertices in the graph)
+Info:    InformedRRTstar: Created 6066 new states. Checked 15810465 rewire options. 1 goal states in tree. Final solution cost 1805.588
+Info:    SimpleSetup: Path simplification took 0.180988 seconds and changed from 21 to 22 states
+Info:    Executing post-run event for run 9 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 10 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2409.00 in 2341 iterations (154 vertices in the graph)
+Info:    InformedRRTstar: Created 6407 new states. Checked 17141165 rewire options. 1 goal states in tree. Final solution cost 1802.009
+Info:    SimpleSetup: Path simplification took 0.234635 seconds and changed from 21 to 25 states
+Info:    Executing post-run event for run 10 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 11 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2307.69 in 3262 iterations (244 vertices in the graph)
+Info:    InformedRRTstar: Created 6452 new states. Checked 17317385 rewire options. 1 goal states in tree. Final solution cost 1811.757
+Info:    SimpleSetup: Path simplification took 0.225414 seconds and changed from 21 to 27 states
+Info:    Executing post-run event for run 11 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 12 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2202.97 in 6340 iterations (199 vertices in the graph)
+Info:    InformedRRTstar: Created 5995 new states. Checked 15534459 rewire options. 1 goal states in tree. Final solution cost 1828.515
+Info:    SimpleSetup: Path simplification took 0.217003 seconds and changed from 22 to 25 states
+Info:    Executing post-run event for run 12 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 13 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2025.33 in 8994 iterations (533 vertices in the graph)
+Info:    InformedRRTstar: Created 6252 new states. Checked 16535269 rewire options. 1 goal states in tree. Final solution cost 1808.782
+Info:    SimpleSetup: Path simplification took 0.155487 seconds and changed from 25 to 24 states
+Info:    Executing post-run event for run 13 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 14 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2204.70 in 4900 iterations (257 vertices in the graph)
+Info:    InformedRRTstar: Created 6200 new states. Checked 16332385 rewire options. 1 goal states in tree. Final solution cost 1786.126
+Info:    SimpleSetup: Path simplification took 0.260720 seconds and changed from 24 to 28 states
+Info:    Executing post-run event for run 14 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 15 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2171.27 in 4341 iterations (294 vertices in the graph)
+Info:    InformedRRTstar: Created 5939 new states. Checked 15317028 rewire options. 1 goal states in tree. Final solution cost 1816.371
+Info:    SimpleSetup: Path simplification took 0.226269 seconds and changed from 21 to 27 states
+Info:    Executing post-run event for run 15 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 16 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2247.48 in 10714 iterations (403 vertices in the graph)
+Info:    InformedRRTstar: Created 6332 new states. Checked 16847779 rewire options. 1 goal states in tree. Final solution cost 1780.742
+Info:    SimpleSetup: Path simplification took 0.301147 seconds and changed from 24 to 29 states
+Info:    Executing post-run event for run 16 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 17 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2221.12 in 4265 iterations (251 vertices in the graph)
+Info:    InformedRRTstar: Created 6185 new states. Checked 16273896 rewire options. 1 goal states in tree. Final solution cost 1812.925
+Info:    SimpleSetup: Path simplification took 0.172211 seconds and changed from 29 to 27 states
+Info:    Executing post-run event for run 17 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 18 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2260.36 in 4801 iterations (247 vertices in the graph)
+Info:    InformedRRTstar: Created 5952 new states. Checked 15367482 rewire options. 1 goal states in tree. Final solution cost 1797.528
+Info:    SimpleSetup: Path simplification took 0.208160 seconds and changed from 23 to 25 states
+Info:    Executing post-run event for run 18 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 19 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2442.00 in 10698 iterations (240 vertices in the graph)
+Info:    InformedRRTstar: Created 6158 new states. Checked 16168657 rewire options. 1 goal states in tree. Final solution cost 1797.749
+Info:    SimpleSetup: Path simplification took 0.303409 seconds and changed from 20 to 21 states
+Info:    Executing post-run event for run 19 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 20 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2177.48 in 7653 iterations (292 vertices in the graph)
+Info:    InformedRRTstar: Created 6238 new states. Checked 16480627 rewire options. 1 goal states in tree. Final solution cost 1782.450
+Info:    SimpleSetup: Path simplification took 0.173405 seconds and changed from 22 to 20 states
+Info:    Executing post-run event for run 20 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 21 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2408.23 in 4579 iterations (204 vertices in the graph)
+Info:    InformedRRTstar: Created 6228 new states. Checked 16441607 rewire options. 1 goal states in tree. Final solution cost 1761.267
+Info:    SimpleSetup: Path simplification took 0.223555 seconds and changed from 25 to 27 states
+Info:    Executing post-run event for run 21 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 22 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2293.32 in 4205 iterations (195 vertices in the graph)
+Info:    InformedRRTstar: Created 5995 new states. Checked 15534459 rewire options. 1 goal states in tree. Final solution cost 1808.704
+Info:    SimpleSetup: Path simplification took 0.241600 seconds and changed from 20 to 24 states
+Info:    Executing post-run event for run 22 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 23 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2282.41 in 4525 iterations (192 vertices in the graph)
+Info:    InformedRRTstar: Created 5934 new states. Checked 15297627 rewire options. 1 goal states in tree. Final solution cost 1793.134
+Info:    SimpleSetup: Path simplification took 0.226421 seconds and changed from 21 to 19 states
+Info:    Executing post-run event for run 23 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_InformedRRTstar
+Info:    Executing pre-run event for run 24 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    InformedRRTstar: Using informed sampling.
+Info:    InformedRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    InformedRRTstar: Initial k-nearest value of 310
+Info:    InformedRRTstar: Found an initial solution with a cost of 2153.76 in 6905 iterations (254 vertices in the graph)
+Info:    InformedRRTstar: Created 5979 new states. Checked 15472311 rewire options. 1 goal states in tree. Final solution cost 1791.950
+Info:    SimpleSetup: Path simplification took 0.224060 seconds and changed from 20 to 26 states
+Info:    Executing post-run event for run 24 of planner geometric_InformedRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_GRRTstar
+Info:    Executing pre-run event for run 0 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2228.89 in 4649 iterations (189 vertices in the graph)
+Info:    GRRTstar: Created 5287 new states. Checked 12803482 rewire options. 1 goal states in tree. Final solution cost 1798.868
+Info:    SimpleSetup: Path simplification took 0.208407 seconds and changed from 21 to 24 states
+Info:    Executing post-run event for run 0 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_GRRTstar
+Info:    Executing pre-run event for run 1 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2109.84 in 3466 iterations (205 vertices in the graph)
+Info:    GRRTstar: Created 4926 new states. Checked 11426962 rewire options. 1 goal states in tree. Final solution cost 1802.333
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.497245 seconds and changed from 23 to 29 states
+Info:    Executing post-run event for run 1 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_GRRTstar
+Info:    Executing pre-run event for run 2 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2244.57 in 10895 iterations (217 vertices in the graph)
+Info:    GRRTstar: Created 5133 new states. Checked 12214876 rewire options. 1 goal states in tree. Final solution cost 1803.688
+Info:    SimpleSetup: Path simplification took 0.152617 seconds and changed from 21 to 24 states
+Info:    Executing post-run event for run 2 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_GRRTstar
+Info:    Executing pre-run event for run 3 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2128.80 in 6483 iterations (163 vertices in the graph)
+Info:    GRRTstar: Created 5086 new states. Checked 12035645 rewire options. 1 goal states in tree. Final solution cost 1802.107
+Info:    SimpleSetup: Path simplification took 0.153316 seconds and changed from 21 to 21 states
+Info:    Executing post-run event for run 3 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_GRRTstar
+Info:    Executing pre-run event for run 4 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2150.55 in 8099 iterations (303 vertices in the graph)
+Info:    GRRTstar: Created 5115 new states. Checked 12146213 rewire options. 1 goal states in tree. Final solution cost 1797.160
+Info:    SimpleSetup: Path simplification took 0.239384 seconds and changed from 21 to 22 states
+Info:    Executing post-run event for run 4 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_GRRTstar
+Info:    Executing pre-run event for run 5 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2178.21 in 3263 iterations (173 vertices in the graph)
+Info:    GRRTstar: Created 5420 new states. Checked 13313435 rewire options. 1 goal states in tree. Final solution cost 1793.052
+Info:    SimpleSetup: Path simplification took 0.157410 seconds and changed from 24 to 26 states
+Info:    Executing post-run event for run 5 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_GRRTstar
+Info:    Executing pre-run event for run 6 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2362.92 in 2384 iterations (124 vertices in the graph)
+Info:    GRRTstar: Created 5152 new states. Checked 12287387 rewire options. 1 goal states in tree. Final solution cost 1799.609
+Info:    SimpleSetup: Path simplification took 0.294902 seconds and changed from 24 to 27 states
+Info:    Executing post-run event for run 6 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_GRRTstar
+Info:    Executing pre-run event for run 7 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2190.25 in 4956 iterations (216 vertices in the graph)
+Info:    GRRTstar: Created 5181 new states. Checked 12398120 rewire options. 1 goal states in tree. Final solution cost 1782.409
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.218637 seconds and changed from 21 to 24 states
+Info:    Executing post-run event for run 7 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_GRRTstar
+Info:    Executing pre-run event for run 8 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2342.77 in 6466 iterations (181 vertices in the graph)
+Info:    GRRTstar: Created 5062 new states. Checked 11944198 rewire options. 1 goal states in tree. Final solution cost 1790.374
+Info:    SimpleSetup: Path simplification took 0.176607 seconds and changed from 22 to 22 states
+Info:    Executing post-run event for run 8 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_GRRTstar
+Info:    Executing pre-run event for run 9 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2271.07 in 5293 iterations (216 vertices in the graph)
+Info:    GRRTstar: Created 5118 new states. Checked 12157655 rewire options. 1 goal states in tree. Final solution cost 1817.561
+Info:    SimpleSetup: Path simplification took 0.200906 seconds and changed from 21 to 24 states
+Info:    Executing post-run event for run 9 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_GRRTstar
+Info:    Executing pre-run event for run 10 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2277.56 in 2474 iterations (154 vertices in the graph)
+Info:    GRRTstar: Created 5408 new states. Checked 13267364 rewire options. 1 goal states in tree. Final solution cost 1822.463
+Info:    SimpleSetup: Path simplification took 0.217974 seconds and changed from 21 to 27 states
+Info:    Executing post-run event for run 10 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_GRRTstar
+Info:    Executing pre-run event for run 11 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2287.74 in 5000 iterations (156 vertices in the graph)
+Info:    GRRTstar: Created 5126 new states. Checked 12188171 rewire options. 1 goal states in tree. Final solution cost 1820.888
+Info:    SimpleSetup: Path simplification took 0.194645 seconds and changed from 22 to 24 states
+Info:    Executing post-run event for run 11 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_GRRTstar
+Info:    Executing pre-run event for run 12 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2503.15 in 3536 iterations (112 vertices in the graph)
+Info:    GRRTstar: Created 5274 new states. Checked 12753716 rewire options. 1 goal states in tree. Final solution cost 1820.323
+Info:    SimpleSetup: Path simplification took 0.144927 seconds and changed from 22 to 21 states
+Info:    Executing post-run event for run 12 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_GRRTstar
+Info:    Executing pre-run event for run 13 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2245.88 in 3686 iterations (140 vertices in the graph)
+Info:    GRRTstar: Created 5304 new states. Checked 12868582 rewire options. 1 goal states in tree. Final solution cost 1774.457
+Info:    SimpleSetup: Path simplification took 0.197174 seconds and changed from 20 to 25 states
+Info:    Executing post-run event for run 13 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_GRRTstar
+Info:    Executing pre-run event for run 14 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2345.44 in 8358 iterations (157 vertices in the graph)
+Info:    GRRTstar: Created 5395 new states. Checked 13217467 rewire options. 1 goal states in tree. Final solution cost 1811.313
+Info:    SimpleSetup: Path simplification took 0.191610 seconds and changed from 22 to 24 states
+Info:    Executing post-run event for run 14 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_GRRTstar
+Info:    Executing pre-run event for run 15 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2185.33 in 5900 iterations (175 vertices in the graph)
+Info:    GRRTstar: Created 5005 new states. Checked 11727214 rewire options. 1 goal states in tree. Final solution cost 1789.525
+Info:    SimpleSetup: Path simplification took 0.289026 seconds and changed from 21 to 26 states
+Info:    Executing post-run event for run 15 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_GRRTstar
+Info:    Executing pre-run event for run 16 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2495.43 in 2003 iterations (152 vertices in the graph)
+Info:    GRRTstar: Created 5063 new states. Checked 11948007 rewire options. 1 goal states in tree. Final solution cost 1792.269
+Info:    SimpleSetup: Path simplification took 0.170761 seconds and changed from 22 to 26 states
+Info:    Executing post-run event for run 16 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_GRRTstar
+Info:    Executing pre-run event for run 17 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2102.83 in 7555 iterations (252 vertices in the graph)
+Info:    GRRTstar: Created 5341 new states. Checked 13010352 rewire options. 1 goal states in tree. Final solution cost 1807.104
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.414923 seconds and changed from 20 to 27 states
+Info:    Executing post-run event for run 17 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_GRRTstar
+Info:    Executing pre-run event for run 18 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2266.07 in 4057 iterations (158 vertices in the graph)
+Info:    GRRTstar: Created 5379 new states. Checked 13156075 rewire options. 1 goal states in tree. Final solution cost 1797.516
+Info:    SimpleSetup: Path simplification took 0.253166 seconds and changed from 22 to 25 states
+Info:    Executing post-run event for run 18 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_GRRTstar
+Info:    Executing pre-run event for run 19 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2101.03 in 6098 iterations (263 vertices in the graph)
+Info:    GRRTstar: Created 4988 new states. Checked 11662555 rewire options. 1 goal states in tree. Final solution cost 1799.831
+Info:    SimpleSetup: Path simplification took 0.288699 seconds and changed from 23 to 24 states
+Info:    Executing post-run event for run 19 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_GRRTstar
+Info:    Executing pre-run event for run 20 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2392.89 in 4178 iterations (123 vertices in the graph)
+Info:    GRRTstar: Created 5207 new states. Checked 12497460 rewire options. 1 goal states in tree. Final solution cost 1766.427
+Info:    SimpleSetup: Path simplification took 0.247131 seconds and changed from 25 to 28 states
+Info:    Executing post-run event for run 20 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_GRRTstar
+Info:    Executing pre-run event for run 21 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2097.34 in 6416 iterations (262 vertices in the graph)
+Info:    GRRTstar: Created 5170 new states. Checked 12356109 rewire options. 1 goal states in tree. Final solution cost 1805.965
+Info:    SimpleSetup: Path simplification took 0.196699 seconds and changed from 24 to 25 states
+Info:    Executing post-run event for run 21 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_GRRTstar
+Info:    Executing pre-run event for run 22 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2214.35 in 6289 iterations (224 vertices in the graph)
+Info:    GRRTstar: Created 4979 new states. Checked 11628335 rewire options. 1 goal states in tree. Final solution cost 1842.150
+Info:    SimpleSetup: Path simplification took 0.215464 seconds and changed from 18 to 21 states
+Info:    Executing post-run event for run 22 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_GRRTstar
+Info:    Executing pre-run event for run 23 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2345.67 in 2614 iterations (185 vertices in the graph)
+Info:    GRRTstar: Created 5017 new states. Checked 11772871 rewire options. 1 goal states in tree. Final solution cost 1806.841
+Info:    SimpleSetup: Path simplification took 0.233975 seconds and changed from 23 to 33 states
+Info:    Executing post-run event for run 23 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_GRRTstar
+Info:    Executing pre-run event for run 24 of planner geometric_GRRTstar ...
+Info:    Completed execution of pre-run event
+Info:    GRRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    GRRTstar: Initial k-nearest value of 310
+Info:    GRRTstar: Found an initial solution with a cost of 2213.40 in 5366 iterations (131 vertices in the graph)
+Info:    GRRTstar: Created 5015 new states. Checked 11765261 rewire options. 1 goal states in tree. Final solution cost 1819.242
+Info:    SimpleSetup: Path simplification took 0.205044 seconds and changed from 22 to 24 states
+Info:    Executing post-run event for run 24 of planner geometric_GRRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 0 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2222.54 in 5905 iterations (234 vertices in the graph)
+Info:    G2RRTstar: Created 4792 new states. Checked 10918970 rewire options. 1 goal states in tree. Final solution cost 1721.348
+Info:    SimpleSetup: Path simplification took 0.224725 seconds and changed from 23 to 22 states
+Info:    Executing post-run event for run 0 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 1 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2160.41 in 15040 iterations (367 vertices in the graph)
+Info:    G2RRTstar: Created 5031 new states. Checked 11826152 rewire options. 1 goal states in tree. Final solution cost 1807.449
+Info:    SimpleSetup: Path simplification took 0.269658 seconds and changed from 24 to 32 states
+Info:    Executing post-run event for run 1 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 2 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2275.06 in 2693 iterations (155 vertices in the graph)
+Info:    G2RRTstar: Created 5411 new states. Checked 13278881 rewire options. 1 goal states in tree. Final solution cost 1779.914
+Info:    SimpleSetup: Path simplification took 0.221204 seconds and changed from 22 to 24 states
+Info:    Executing post-run event for run 2 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 3 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2060.56 in 7132 iterations (456 vertices in the graph)
+Info:    G2RRTstar: Created 5064 new states. Checked 11951816 rewire options. 1 goal states in tree. Final solution cost 1809.862
+Info:    SimpleSetup: Path simplification took 0.175117 seconds and changed from 23 to 26 states
+Info:    Executing post-run event for run 3 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 4 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2235.05 in 4727 iterations (189 vertices in the graph)
+Info:    G2RRTstar: Created 4963 new states. Checked 11567516 rewire options. 1 goal states in tree. Final solution cost 1799.704
+Info:    SimpleSetup: Path simplification took 0.172671 seconds and changed from 20 to 20 states
+Info:    Executing post-run event for run 4 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 5 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2482.77 in 4867 iterations (105 vertices in the graph)
+Info:    G2RRTstar: Created 5124 new states. Checked 12180541 rewire options. 1 goal states in tree. Final solution cost 1805.324
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.336334 seconds and changed from 23 to 29 states
+Info:    Executing post-run event for run 5 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 6 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2360.56 in 3999 iterations (132 vertices in the graph)
+Info:    G2RRTstar: Created 5259 new states. Checked 12696312 rewire options. 1 goal states in tree. Final solution cost 1809.813
+Info:    SimpleSetup: Path simplification took 0.211212 seconds and changed from 20 to 27 states
+Info:    Executing post-run event for run 6 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 7 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2281.04 in 2746 iterations (306 vertices in the graph)
+Info:    G2RRTstar: Created 5156 new states. Checked 12302655 rewire options. 1 goal states in tree. Final solution cost 1787.966
+Info:    SimpleSetup: Path simplification took 0.231786 seconds and changed from 22 to 24 states
+Info:    Executing post-run event for run 7 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 8 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2219.20 in 5697 iterations (192 vertices in the graph)
+Info:    G2RRTstar: Created 5221 new states. Checked 12550975 rewire options. 1 goal states in tree. Final solution cost 1775.595
+Info:    SimpleSetup: Path simplification took 0.228106 seconds and changed from 23 to 26 states
+Info:    Executing post-run event for run 8 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 9 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2302.37 in 3811 iterations (108 vertices in the graph)
+Info:    G2RRTstar: Created 5324 new states. Checked 12945200 rewire options. 1 goal states in tree. Final solution cost 1794.242
+Info:    SimpleSetup: Path simplification took 0.192515 seconds and changed from 21 to 21 states
+Info:    Executing post-run event for run 9 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 10 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2170.21 in 9022 iterations (172 vertices in the graph)
+Info:    G2RRTstar: Created 5253 new states. Checked 12673356 rewire options. 1 goal states in tree. Final solution cost 1801.337
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.220725 seconds and changed from 21 to 24 states
+Info:    Executing post-run event for run 10 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 11 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2214.33 in 8626 iterations (203 vertices in the graph)
+Info:    G2RRTstar: Created 5148 new states. Checked 12272119 rewire options. 1 goal states in tree. Final solution cost 1793.406
+Info:    SimpleSetup: Path simplification took 0.190643 seconds and changed from 21 to 23 states
+Info:    Executing post-run event for run 11 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 12 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2228.08 in 2561 iterations (171 vertices in the graph)
+Info:    G2RRTstar: Created 5129 new states. Checked 12199616 rewire options. 1 goal states in tree. Final solution cost 1832.017
+Info:    SimpleSetup: Path simplification took 0.393390 seconds and changed from 21 to 27 states
+Info:    Executing post-run event for run 12 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 13 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2404.10 in 1998 iterations (147 vertices in the graph)
+Info:    G2RRTstar: Created 4777 new states. Checked 10862208 rewire options. 1 goal states in tree. Final solution cost 1812.282
+Info:    SimpleSetup: Path simplification took 0.173950 seconds and changed from 22 to 25 states
+Info:    Executing post-run event for run 13 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 14 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2169.19 in 4604 iterations (189 vertices in the graph)
+Info:    G2RRTstar: Created 5272 new states. Checked 12746061 rewire options. 1 goal states in tree. Final solution cost 1806.887
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.331407 seconds and changed from 23 to 22 states
+Info:    Executing post-run event for run 14 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 15 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2137.03 in 7299 iterations (331 vertices in the graph)
+Info:    G2RRTstar: Created 5204 new states. Checked 12485994 rewire options. 1 goal states in tree. Final solution cost 1811.637
+Info:    SimpleSetup: Path simplification took 0.193391 seconds and changed from 21 to 26 states
+Info:    Executing post-run event for run 15 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 16 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2284.03 in 2291 iterations (147 vertices in the graph)
+Info:    G2RRTstar: Created 5026 new states. Checked 11807122 rewire options. 1 goal states in tree. Final solution cost 1806.320
+Info:    SimpleSetup: Path simplification took 0.219915 seconds and changed from 23 to 27 states
+Info:    Executing post-run event for run 16 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 17 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2214.95 in 7771 iterations (235 vertices in the graph)
+Info:    G2RRTstar: Created 5198 new states. Checked 12463067 rewire options. 1 goal states in tree. Final solution cost 1829.994
+Info:    SimpleSetup: Path simplification took 0.249340 seconds and changed from 24 to 29 states
+Info:    Executing post-run event for run 17 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 18 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2235.57 in 3297 iterations (159 vertices in the graph)
+Info:    G2RRTstar: Created 5373 new states. Checked 13133059 rewire options. 1 goal states in tree. Final solution cost 1820.083
+Info:    SimpleSetup: Path simplification took 0.199681 seconds and changed from 22 to 26 states
+Info:    Executing post-run event for run 18 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 19 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2360.49 in 5976 iterations (163 vertices in the graph)
+Info:    G2RRTstar: Created 5040 new states. Checked 11860415 rewire options. 1 goal states in tree. Final solution cost 1816.333
+Info:    SimpleSetup: Path simplification took 0.207612 seconds and changed from 23 to 24 states
+Info:    Executing post-run event for run 19 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 20 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2213.93 in 11540 iterations (271 vertices in the graph)
+Info:    G2RRTstar: Created 5118 new states. Checked 12157655 rewire options. 1 goal states in tree. Final solution cost 1780.885
+Info:    SimpleSetup: Path simplification took 0.171095 seconds and changed from 22 to 23 states
+Info:    Executing post-run event for run 20 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 21 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2320.83 in 5675 iterations (149 vertices in the graph)
+Info:    G2RRTstar: Created 5364 new states. Checked 13098539 rewire options. 1 goal states in tree. Final solution cost 1797.656
+Info:    SimpleSetup: Path simplification took 0.225886 seconds and changed from 20 to 25 states
+Info:    Executing post-run event for run 21 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 22 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2271.13 in 4145 iterations (163 vertices in the graph)
+Info:    G2RRTstar: Created 5121 new states. Checked 12169097 rewire options. 1 goal states in tree. Final solution cost 1797.814
+Info:    SimpleSetup: Path simplification took 0.210595 seconds and changed from 23 to 25 states
+Info:    Executing post-run event for run 22 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 23 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2200.74 in 3085 iterations (219 vertices in the graph)
+Info:    G2RRTstar: Created 5254 new states. Checked 12677182 rewire options. 1 goal states in tree. Final solution cost 1793.122
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.188088 seconds and changed from 21 to 24 states
+Info:    Executing post-run event for run 23 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_G2RRTstar
+Info:    Executing pre-run event for run 24 of planner geometric_G2RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G2RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G2RRTstar: Initial k-nearest value of 310
+Info:    G2RRTstar: Found an initial solution with a cost of 2186.58 in 6830 iterations (237 vertices in the graph)
+Info:    G2RRTstar: Created 5237 new states. Checked 12612154 rewire options. 1 goal states in tree. Final solution cost 1794.665
+Info:    SimpleSetup: Path simplification took 0.154382 seconds and changed from 22 to 22 states
+Info:    Executing post-run event for run 24 of planner geometric_G2RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 0 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 0 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2477.34 in 13635 iterations (245 vertices in the graph)
+Info:    G4RRTstar: Created 4229 new states. Checked 8803513 rewire options. 1 goal states in tree. Final solution cost 1823.878
+Info:    SimpleSetup: Path simplification took 0.249949 seconds and changed from 22 to 27 states
+Info:    Executing post-run event for run 0 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 1 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 1 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2314.28 in 12417 iterations (273 vertices in the graph)
+Info:    G4RRTstar: Created 4658 new states. Checked 10412652 rewire options. 1 goal states in tree. Final solution cost 1773.501
+Info:    SimpleSetup: Path simplification took 0.225082 seconds and changed from 22 to 25 states
+Info:    Executing post-run event for run 1 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 2 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 2 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2183.43 in 16896 iterations (375 vertices in the graph)
+Info:    G4RRTstar: Created 4424 new states. Checked 9532645 rewire options. 1 goal states in tree. Final solution cost 1824.944
+Info:    SimpleSetup: Path simplification took 0.174646 seconds and changed from 22 to 25 states
+Info:    Executing post-run event for run 2 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 3 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 3 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2164.22 in 6233 iterations (170 vertices in the graph)
+Info:    G4RRTstar: Created 4469 new states. Checked 9701455 rewire options. 1 goal states in tree. Final solution cost 1839.081
+Info:    SimpleSetup: Path simplification took 0.231734 seconds and changed from 21 to 27 states
+Info:    Executing post-run event for run 3 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 4 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 4 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2254.73 in 6624 iterations (158 vertices in the graph)
+Info:    G4RRTstar: Created 4212 new states. Checked 8740135 rewire options. 1 goal states in tree. Final solution cost 1838.292
+Info:    SimpleSetup: Path simplification took 0.220398 seconds and changed from 21 to 25 states
+Info:    Executing post-run event for run 4 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 5 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 5 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2220.89 in 8395 iterations (203 vertices in the graph)
+Info:    G4RRTstar: Created 4449 new states. Checked 9626403 rewire options. 1 goal states in tree. Final solution cost 1767.442
+Info:    SimpleSetup: Path simplification took 0.204544 seconds and changed from 19 to 27 states
+Info:    Executing post-run event for run 5 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 6 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 6 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2193.65 in 11038 iterations (234 vertices in the graph)
+Info:    G4RRTstar: Created 4380 new states. Checked 9367781 rewire options. 1 goal states in tree. Final solution cost 1842.824
+Info:    SimpleSetup: Path simplification took 0.185744 seconds and changed from 23 to 24 states
+Info:    Executing post-run event for run 6 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 7 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 7 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2372.46 in 5793 iterations (146 vertices in the graph)
+Info:    G4RRTstar: Created 4400 new states. Checked 9442695 rewire options. 1 goal states in tree. Final solution cost 1838.013
+Info:    SimpleSetup: Path simplification took 0.183091 seconds and changed from 20 to 21 states
+Info:    Executing post-run event for run 7 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 8 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 8 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2193.46 in 11382 iterations (305 vertices in the graph)
+Info:    G4RRTstar: Created 4349 new states. Checked 9251745 rewire options. 1 goal states in tree. Final solution cost 1832.419
+Info:    SimpleSetup: Path simplification took 0.310102 seconds and changed from 22 to 28 states
+Info:    Executing post-run event for run 8 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 9 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 9 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2199.88 in 10206 iterations (267 vertices in the graph)
+Info:    G4RRTstar: Created 4119 new states. Checked 8393967 rewire options. 1 goal states in tree. Final solution cost 1867.380
+Info:    SimpleSetup: Path simplification took 0.312476 seconds and changed from 20 to 24 states
+Info:    Executing post-run event for run 9 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 10 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 10 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2204.42 in 5750 iterations (269 vertices in the graph)
+Info:    G4RRTstar: Created 4026 new states. Checked 8048736 rewire options. 1 goal states in tree. Final solution cost 1853.390
+Info:    SimpleSetup: Path simplification took 0.179811 seconds and changed from 19 to 23 states
+Info:    Executing post-run event for run 10 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 11 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 11 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2218.59 in 13629 iterations (299 vertices in the graph)
+Info:    G4RRTstar: Created 4444 new states. Checked 9607647 rewire options. 1 goal states in tree. Final solution cost 1853.562
+Info:    SimpleSetup: Path simplification took 0.224659 seconds and changed from 22 to 27 states
+Info:    Executing post-run event for run 11 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 12 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 12 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2157.77 in 6868 iterations (195 vertices in the graph)
+Info:    G4RRTstar: Created 4222 new states. Checked 8777412 rewire options. 1 goal states in tree. Final solution cost 1858.300
+Info:    SimpleSetup: Path simplification took 0.188432 seconds and changed from 22 to 24 states
+Info:    Executing post-run event for run 12 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 13 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 13 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2212.73 in 7108 iterations (218 vertices in the graph)
+Info:    G4RRTstar: Created 4719 new states. Checked 10642930 rewire options. 1 goal states in tree. Final solution cost 1828.701
+Info:    SimpleSetup: Path simplification took 0.106506 seconds and changed from 19 to 21 states
+Info:    Executing post-run event for run 13 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 14 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 14 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2150.75 in 13381 iterations (300 vertices in the graph)
+Info:    G4RRTstar: Created 4310 new states. Checked 9105905 rewire options. 1 goal states in tree. Final solution cost 1822.082
+Info:    SimpleSetup: Path simplification took 0.200669 seconds and changed from 19 to 25 states
+Info:    Executing post-run event for run 14 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 15 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 15 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2272.29 in 10035 iterations (189 vertices in the graph)
+Info:    G4RRTstar: Created 4290 new states. Checked 9031177 rewire options. 1 goal states in tree. Final solution cost 1849.208
+Debug:   The solution path was slightly touching on an invalid region of the state space, but it was successfully fixed.
+Info:    SimpleSetup: Path simplification took 0.223196 seconds and changed from 22 to 29 states
+Info:    Executing post-run event for run 15 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 16 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 16 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2232.40 in 5892 iterations (167 vertices in the graph)
+Info:    G4RRTstar: Created 4278 new states. Checked 8986360 rewire options. 1 goal states in tree. Final solution cost 1850.092
+Info:    SimpleSetup: Path simplification took 0.177343 seconds and changed from 20 to 25 states
+Info:    Executing post-run event for run 16 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 17 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 17 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2162.18 in 9105 iterations (233 vertices in the graph)
+Info:    G4RRTstar: Created 4220 new states. Checked 8769956 rewire options. 1 goal states in tree. Final solution cost 1846.835
+Info:    SimpleSetup: Path simplification took 0.110548 seconds and changed from 20 to 21 states
+Info:    Executing post-run event for run 17 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 18 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 18 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2215.22 in 15353 iterations (396 vertices in the graph)
+Info:    G4RRTstar: Created 4585 new states. Checked 10137543 rewire options. 1 goal states in tree. Final solution cost 1791.615
+Info:    SimpleSetup: Path simplification took 0.164297 seconds and changed from 24 to 25 states
+Info:    Executing post-run event for run 18 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 19 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 19 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2321.83 in 9646 iterations (262 vertices in the graph)
+Info:    G4RRTstar: Created 4268 new states. Checked 8949024 rewire options. 1 goal states in tree. Final solution cost 1842.986
+Info:    SimpleSetup: Path simplification took 0.219212 seconds and changed from 20 to 22 states
+Info:    Executing post-run event for run 19 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 20 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 20 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2288.83 in 12762 iterations (260 vertices in the graph)
+Info:    G4RRTstar: Created 4220 new states. Checked 8769956 rewire options. 1 goal states in tree. Final solution cost 1853.327
+Info:    SimpleSetup: Path simplification took 0.196662 seconds and changed from 24 to 20 states
+Info:    Executing post-run event for run 20 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 21 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 21 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2309.14 in 7457 iterations (212 vertices in the graph)
+Info:    G4RRTstar: Created 4408 new states. Checked 9472671 rewire options. 1 goal states in tree. Final solution cost 1831.186
+Info:    SimpleSetup: Path simplification took 0.175541 seconds and changed from 20 to 25 states
+Info:    Executing post-run event for run 21 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 22 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 22 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2561.07 in 6640 iterations (180 vertices in the graph)
+Info:    G4RRTstar: Created 4493 new states. Checked 9791571 rewire options. 1 goal states in tree. Final solution cost 1825.835
+Info:    SimpleSetup: Path simplification took 0.220022 seconds and changed from 21 to 25 states
+Info:    Executing post-run event for run 22 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 23 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 23 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2361.34 in 13017 iterations (287 vertices in the graph)
+Info:    G4RRTstar: Created 4282 new states. Checked 9001297 rewire options. 1 goal states in tree. Final solution cost 1820.894
+Info:    SimpleSetup: Path simplification took 0.252939 seconds and changed from 21 to 27 states
+Info:    Executing post-run event for run 23 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Preparing for run 24 of geometric_G4RRTstar
+Info:    Executing pre-run event for run 24 of planner geometric_G4RRTstar ...
+Info:    Completed execution of pre-run event
+Info:    G4RRTstar: Started planning with 1 states. Seeking a solution better than 0.00000.
+Info:    G4RRTstar: Initial k-nearest value of 310
+Info:    G4RRTstar: Found an initial solution with a cost of 2335.46 in 5511 iterations (152 vertices in the graph)
+Info:    G4RRTstar: Created 4309 new states. Checked 9102168 rewire options. 1 goal states in tree. Final solution cost 1875.648
+Info:    SimpleSetup: Path simplification took 0.154930 seconds and changed from 21 to 25 states
+Info:    Executing post-run event for run 24 of planner geometric_G4RRTstar ...
+Info:    Completed execution of post-run event
+Info:    Benchmark complete
