@@ -102,3 +102,4 @@ fig.write_image("median_best_cost_over_time.png")
 fig.write_image("median_best_cost_over_time.pdf")
 
 print("Saved median best cost plot to median_best_cost_over_time.pdf")
+
