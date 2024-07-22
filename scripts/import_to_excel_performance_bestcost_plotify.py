@@ -2,9 +2,8 @@ import subprocess
 import sys
 import pandas as pd
 import sqlite3
-import matplotlib.pyplot as plt
-import seaborn as sns
-from matplotlib.backends.backend_pdf import PdfPages
+import plotly.express as px
+import plotly.io as pio
 
 # Function to install a package
 def install(package):
@@ -13,15 +12,12 @@ def install(package):
 # Install required packages if not already installed
 try:
     import pandas as pd
-    import matplotlib.pyplot as plt
-    import seaborn as sns
+    import plotly.express as px
 except ImportError:
     install('pandas')
-    install('matplotlib')
-    install('seaborn')
+    install('plotly')
     import pandas as pd
-    import matplotlib.pyplot as plt
-    import seaborn as sns
+    import plotly.express as px
 
 # Connect to SQLite database
 print("Connecting to database...")
@@ -50,8 +46,8 @@ df.columns = df.columns.str.strip()
 
 # Define performance measure columns
 performance_columns = [
-    'approximate_solution', 'correct_solution', 'correct_solution_strict',
-    'graph_motions', 'graph_states', 'memory', 'simplification_time',
+    'approximate_solution', 'best_cost', 'correct_solution', 'correct_solution_strict',
+    'graph_motions', 'graph_states', 'iterations', 'memory', 'simplification_time',
     'simplified_correct_solution', 'simplified_correct_solution_strict',
     'simplified_solution_clearance', 'simplified_solution_length',
     'simplified_solution_segments', 'simplified_solution_smoothness',
@@ -106,34 +102,39 @@ with pd.ExcelWriter('performance_summary.xlsx', engine='openpyxl') as writer:
 
 print('Data, performance averages, and percentage changes have been exported to performance_summary.xlsx')
 
-# Box Plots
-print("Creating colorful box plots for performance measures...")
+# Box Plots with Plotly
+print("Creating colorful box plots with Plotly...")
 
-# Set up the PDF file to save plots
-pdf_filename = 'performance_box_plots.pdf'
-with PdfPages(pdf_filename) as pdf:
-    
-    # Define a color palette with a color for each planner
-    unique_planners = df['name'].unique()
-    palette = sns.color_palette("husl", len(unique_planners))  # Use a color palette with distinct colors
-    
-    for column in performance_columns:
-        plt.figure(figsize=(16, 10))  # Increased figure size for better readability
-        sns.boxplot(data=df, x='name', y=column, palette=palette)
-        plt.title(f'Box Plot of {column} for Each Planner')
-        plt.xlabel('Planner Name')
-        plt.ylabel(column)
-        plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels and align them to the right
-        
-        # Save the plot to the PDF
-        pdf.savefig()
-        
-        # Save the plot as an image file
-        image_filename = f'{column}_box_plot.png'
-        plt.savefig(image_filename, bbox_inches='tight')
-        print(f'Saved box plot for {column} as {image_filename}')
-        
-        plt.close()
+# Define a color map for each planner
+color_map = px.colors.qualitative.Plotly  # or use another color palette if desired
 
-print(f'Box plots saved to {pdf_filename}')
+for column in performance_columns:
+    fig = px.box(
+        df, 
+        x='name', 
+        y=column, 
+        color='name', 
+        color_discrete_sequence=color_map, 
+        title=f'Box Plot of {column} for Each Planner'
+    )
+    
+    # Update layout for better readability
+    fig.update_layout(
+        xaxis_title='Planner Name',
+        yaxis_title=column,
+        xaxis=dict(tickmode='array', tickangle=45),
+        title=dict(x=0.5)
+    )
+    
+    # Save the plot as an image file
+    image_filename = f'{column}_box_plot.png'
+    fig.write_image(image_filename, scale=2)
+    print(f'Saved box plot for {column} as {image_filename}')
+    
+    # Save the plot as an interactive HTML file
+    html_filename = f'{column}_box_plot.html'
+    fig.write_html(html_filename)
+    print(f'Saved interactive box plot for {column} as {html_filename}')
+
+print('Colorful box plots saved as images and HTML files.')
 

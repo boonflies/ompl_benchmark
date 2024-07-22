@@ -21,7 +21,7 @@ except ImportError:
 
 # Connect to SQLite database
 print("Connecting to database...")
-conn = sqlite3.connect('mydatabase_gaussian.db')
+conn = sqlite3.connect('mydatabase_bridge-test.db')
 
 # Query the data with planner names
 query = """
@@ -46,8 +46,8 @@ df.columns = df.columns.str.strip()
 
 # Define performance measure columns
 performance_columns = [
-    'approximate_solution', 'best_cost', 'correct_solution', 'correct_solution_strict',
-    'graph_motions', 'graph_states', 'iterations', 'memory', 'simplification_time',
+    'approximate_solution', 'correct_solution', 'correct_solution_strict',
+    'graph_motions', 'graph_states', 'memory', 'simplification_time',
     'simplified_correct_solution', 'simplified_correct_solution_strict',
     'simplified_solution_clearance', 'simplified_solution_length',
     'simplified_solution_segments', 'simplified_solution_smoothness',
