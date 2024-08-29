@@ -34,32 +34,32 @@
 
 /* Author: Ioan Sucan */
 
-#include "ompl/geometric/planners/rrt/SG2RRT.h"
+#include "ompl/geometric/planners/rrt/SG22RRT.h"
 #include <limits>
 #include "ompl/base/goals/GoalSampleableRegion.h"
 #include "ompl/tools/config/SelfConfig.h"
 #include <chrono>
 
-ompl::geometric::SG2RRT::SG2RRT(const base::SpaceInformationPtr &si, bool addIntermediateStates)
-  : base::Planner(si, addIntermediateStates ? "RRTintermediate" : "SG2RRT")
+ompl::geometric::SG22RRT::SG22RRT(const base::SpaceInformationPtr &si, bool addIntermediateStates)
+  : base::Planner(si, addIntermediateStates ? "RRTintermediate" : "SG22RRT")
 {
     specs_.approximateSolutions = true;
     specs_.directed = true;
 
-    Planner::declareParam<double>("range", this, &SG2RRT::setRange, &SG2RRT::getRange, "0.:1.:10000.");
-    Planner::declareParam<double>("goal_bias", this, &SG2RRT::setGoalBias, &SG2RRT::getGoalBias, "0.:.05:1.");
-    Planner::declareParam<bool>("intermediate_states", this, &SG2RRT::setIntermediateStates, &SG2RRT::getIntermediateStates,
+    Planner::declareParam<double>("range", this, &SG22RRT::setRange, &SG22RRT::getRange, "0.:1.:10000.");
+    Planner::declareParam<double>("goal_bias", this, &SG22RRT::setGoalBias, &SG22RRT::getGoalBias, "0.:.05:1.");
+    Planner::declareParam<bool>("intermediate_states", this, &SG22RRT::setIntermediateStates, &SG22RRT::getIntermediateStates,
                                 "0,1");
 
     addIntermediateStates_ = addIntermediateStates;
 }
 
-ompl::geometric::SG2RRT::~SG2RRT()
+ompl::geometric::SG22RRT::~SG22RRT()
 {
     freeMemory();
 }
 
-void ompl::geometric::SG2RRT::clear()
+void ompl::geometric::SG22RRT::clear()
 {
     Planner::clear();
     sampler_.reset();
@@ -69,7 +69,7 @@ void ompl::geometric::SG2RRT::clear()
     lastGoalMotion_ = nullptr;
 }
 
-void ompl::geometric::SG2RRT::setup()
+void ompl::geometric::SG22RRT::setup()
 {
     Planner::setup();
     tools::SelfConfig sc(si_, getName());
@@ -80,7 +80,7 @@ void ompl::geometric::SG2RRT::setup()
     nn_->setDistanceFunction([this](const Motion *a, const Motion *b) { return distanceFunction(a, b); });
 }
 
-void ompl::geometric::SG2RRT::freeMemory()
+void ompl::geometric::SG22RRT::freeMemory()
 {
     if (nn_)
     {
@@ -95,7 +95,7 @@ void ompl::geometric::SG2RRT::freeMemory()
     }
 }
 
-ompl::base::PlannerStatus ompl::geometric::SG2RRT::solve(const base::PlannerTerminationCondition &ptc)
+ompl::base::PlannerStatus ompl::geometric::SG22RRT::solve(const base::PlannerTerminationCondition &ptc)
 {
     checkValidity();
     //const base::State *start = pis_.nextStart();
@@ -134,6 +134,7 @@ ompl::base::PlannerStatus ompl::geometric::SG2RRT::solve(const base::PlannerTerm
     Motion *approxsol = nullptr;
     double approxdif = std::numeric_limits<double>::infinity();
     auto *rmotion = new Motion(si_);
+    Motion *nmotion;
     base::State *rstate = rmotion->state;
     base::State *xstate = si_->allocState();
 
@@ -159,27 +160,31 @@ while (!ptc)
 
        
 	 int bestIndex = 0;
-        double bestCombinedDist = std::numeric_limits<double>::infinity();
+           double bestCombinedDist = std::numeric_limits<double>::infinity();
 
+        
         for (int i = 0; i < 2; ++i) {
             double goalDist;
-            goal->isSatisfied(sampledStates[i], &goalDist);
-            
-            double startDist = si_->distance(startState, sampledStates[i]);
-            double combinedDist = startDist + goalDist;
+            goal->isSatisfied(sampledStates[i], &goalDist);           
+
+           
+            si_->copyState(rstate, sampledStates[i]); 
+            nmotion = nn_->nearest(rmotion);
+	    double costToCome = nmotion->cost ;
+            double costToGo = si_->distance(nmotion->state, sampledStates[i]) + goalDist;
+            double combinedDist = costToCome + costToGo;
             
             if (combinedDist < bestCombinedDist) {
                 bestCombinedDist = combinedDist;
                 bestIndex = i;
             }
-        }	
-	
+        }
 
         // Copy the best state to rstate
         si_->copyState(rstate, sampledStates[bestIndex]);
 } 
         // Find closest state in the tree
-        Motion *nmotion = nn_->nearest(rmotion);
+        nmotion = nn_->nearest(rmotion);
         base::State *dstate = rstate;
 
         // Find state to add
@@ -283,7 +288,7 @@ while (!ptc)
 }
 
 
-void ompl::geometric::SG2RRT::getPlannerData(base::PlannerData &data) const
+void ompl::geometric::SG22RRT::getPlannerData(base::PlannerData &data) const
 {
     Planner::getPlannerData(data);
 
