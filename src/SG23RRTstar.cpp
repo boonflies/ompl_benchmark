@@ -34,7 +34,7 @@
 
 /* Authors: Alejandro Perez, Sertac Karaman, Ryan Luna, Luis G. Torres, Ioan Sucan, Javier V Gomez, Jonathan Gammell */
 
-#include "ompl/geometric/planners/rrt/SG22RRTstar.h"
+#include "ompl/geometric/planners/rrt/SG23RRTstar.h"
 #include <algorithm>
 #include <boost/math/constants/constants.hpp>
 #include <limits>
@@ -48,50 +48,53 @@
 #include "ompl/base/samplers/informed/OrderedInfSampler.h"
 #include "ompl/tools/config/SelfConfig.h"
 #include "ompl/util/GeometricEquations.h"
+#include "ompl/base/State.h"
+#include <Eigen/Dense>
+#include "ompl/base/spaces/RealVectorStateSpace.h"
 
-ompl::geometric::SG22RRTstar::SG22RRTstar(const base::SpaceInformationPtr &si)
-  : base::Planner(si, "SG22RRTstar")
+ompl::geometric::SG23RRTstar::SG23RRTstar(const base::SpaceInformationPtr &si)
+  : base::Planner(si, "SG23RRTstar")
 {
     specs_.approximateSolutions = true;
     specs_.optimizingPaths = true;
     specs_.canReportIntermediateSolutions = true;
 
-    Planner::declareParam<double>("range", this, &SG22RRTstar::setRange, &SG22RRTstar::getRange, "0.:1.:10000.");
-    Planner::declareParam<double>("goal_bias", this, &SG22RRTstar::setGoalBias, &SG22RRTstar::getGoalBias, "0.:.05:1.");
-    Planner::declareParam<double>("rewire_factor", this, &SG22RRTstar::setRewireFactor, &SG22RRTstar::getRewireFactor,
+    Planner::declareParam<double>("range", this, &SG23RRTstar::setRange, &SG23RRTstar::getRange, "0.:1.:10000.");
+    Planner::declareParam<double>("goal_bias", this, &SG23RRTstar::setGoalBias, &SG23RRTstar::getGoalBias, "0.:.05:1.");
+    Planner::declareParam<double>("rewire_factor", this, &SG23RRTstar::setRewireFactor, &SG23RRTstar::getRewireFactor,
                                   "1.0:0.01:2.0");
-    Planner::declareParam<bool>("use_k_nearest", this, &SG22RRTstar::setKNearest, &SG22RRTstar::getKNearest, "0,1");
-    Planner::declareParam<bool>("delay_collision_checking", this, &SG22RRTstar::setDelayCC, &SG22RRTstar::getDelayCC, "0,1");
-    Planner::declareParam<bool>("tree_pruning", this, &SG22RRTstar::setTreePruning, &SG22RRTstar::getTreePruning, "0,1");
-    Planner::declareParam<double>("prune_threshold", this, &SG22RRTstar::setPruneThreshold, &SG22RRTstar::getPruneThreshold,
+    Planner::declareParam<bool>("use_k_nearest", this, &SG23RRTstar::setKNearest, &SG23RRTstar::getKNearest, "0,1");
+    Planner::declareParam<bool>("delay_collision_checking", this, &SG23RRTstar::setDelayCC, &SG23RRTstar::getDelayCC, "0,1");
+    Planner::declareParam<bool>("tree_pruning", this, &SG23RRTstar::setTreePruning, &SG23RRTstar::getTreePruning, "0,1");
+    Planner::declareParam<double>("prune_threshold", this, &SG23RRTstar::setPruneThreshold, &SG23RRTstar::getPruneThreshold,
                                   "0.:.01:1.");
-    Planner::declareParam<bool>("pruned_measure", this, &SG22RRTstar::setPrunedMeasure, &SG22RRTstar::getPrunedMeasure, "0,1");
-    Planner::declareParam<bool>("informed_sampling", this, &SG22RRTstar::setInformedSampling, &SG22RRTstar::getInformedSampling,
+    Planner::declareParam<bool>("pruned_measure", this, &SG23RRTstar::setPrunedMeasure, &SG23RRTstar::getPrunedMeasure, "0,1");
+    Planner::declareParam<bool>("informed_sampling", this, &SG23RRTstar::setInformedSampling, &SG23RRTstar::getInformedSampling,
                                 "0,1");
-    Planner::declareParam<bool>("sample_rejection", this, &SG22RRTstar::setSampleRejection, &SG22RRTstar::getSampleRejection,
+    Planner::declareParam<bool>("sample_rejection", this, &SG23RRTstar::setSampleRejection, &SG23RRTstar::getSampleRejection,
                                 "0,1");
-    Planner::declareParam<bool>("new_state_rejection", this, &SG22RRTstar::setNewStateRejection,
-                                &SG22RRTstar::getNewStateRejection, "0,1");
-    Planner::declareParam<bool>("use_admissible_heuristic", this, &SG22RRTstar::setAdmissibleCostToCome,
-                                &SG22RRTstar::getAdmissibleCostToCome, "0,1");
-    Planner::declareParam<bool>("ordered_sampling", this, &SG22RRTstar::setOrderedSampling, &SG22RRTstar::getOrderedSampling,
+    Planner::declareParam<bool>("new_state_rejection", this, &SG23RRTstar::setNewStateRejection,
+                                &SG23RRTstar::getNewStateRejection, "0,1");
+    Planner::declareParam<bool>("use_admissible_heuristic", this, &SG23RRTstar::setAdmissibleCostToCome,
+                                &SG23RRTstar::getAdmissibleCostToCome, "0,1");
+    Planner::declareParam<bool>("ordered_sampling", this, &SG23RRTstar::setOrderedSampling, &SG23RRTstar::getOrderedSampling,
                                 "0,1");
-    Planner::declareParam<unsigned int>("ordering_batch_size", this, &SG22RRTstar::setBatchSize, &SG22RRTstar::getBatchSize,
+    Planner::declareParam<unsigned int>("ordering_batch_size", this, &SG23RRTstar::setBatchSize, &SG23RRTstar::getBatchSize,
                                         "1:100:1000000");
-    Planner::declareParam<bool>("focus_search", this, &SG22RRTstar::setFocusSearch, &SG22RRTstar::getFocusSearch, "0,1");
-    Planner::declareParam<unsigned int>("number_sampling_attempts", this, &SG22RRTstar::setNumSamplingAttempts,
-                                        &SG22RRTstar::getNumSamplingAttempts, "10:10:100000");
+    Planner::declareParam<bool>("focus_search", this, &SG23RRTstar::setFocusSearch, &SG23RRTstar::getFocusSearch, "0,1");
+    Planner::declareParam<unsigned int>("number_sampling_attempts", this, &SG23RRTstar::setNumSamplingAttempts,
+                                        &SG23RRTstar::getNumSamplingAttempts, "10:10:100000");
 
     addPlannerProgressProperty("iterations INTEGER", [this] { return numIterationsProperty(); });
     addPlannerProgressProperty("best cost REAL", [this] { return bestCostProperty(); });
 }
 
-ompl::geometric::SG22RRTstar::~SG22RRTstar()
+ompl::geometric::SG23RRTstar::~SG23RRTstar()
 {
     freeMemory();
 }
 
-void ompl::geometric::SG22RRTstar::setup()
+void ompl::geometric::SG23RRTstar::setup()
 {
     Planner::setup();
     tools::SelfConfig sc(si_, getName());
@@ -142,7 +145,7 @@ void ompl::geometric::SG22RRTstar::setup()
     calculateRewiringLowerBounds();
 }
 
-void ompl::geometric::SG22RRTstar::clear()
+void ompl::geometric::SG23RRTstar::clear()
 {
     setup_ = false;
     Planner::clear();
@@ -162,7 +165,59 @@ void ompl::geometric::SG22RRTstar::clear()
     prunedMeasure_ = 0.0;
 }
 
-ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::PlannerTerminationCondition &ptc)
+double ompl::geometric::SG23RRTstar::minDistanceToPath(const ompl::base::State *sampledState, const std::shared_ptr<PathGeometric> &path)
+{
+    double minDistance = std::numeric_limits<double>::infinity();
+    
+    for (size_t i = 1; i < path->getStateCount(); ++i)
+    {
+        const ompl::base::State *A = path->getState(i - 1);
+        const ompl::base::State *B = path->getState(i);
+        
+        // Compute the distance from sampledState to the segment AB, passing the space for dimension information
+        double distance = distanceFromPointToSegment(sampledState, A, B);
+        
+        // Update the minimum distance
+        if (distance < minDistance)
+            minDistance = distance;
+    }
+    
+    return minDistance;
+}
+
+double ompl::geometric::SG23RRTstar::distanceFromPointToSegment(const ompl::base::State *P, const ompl::base::State *A, const ompl::base::State *B)
+{
+    // Convert states to vectors
+    const auto *P_vec = P->as<ompl::base::RealVectorStateSpace::StateType>();
+    const auto *A_vec = A->as<ompl::base::RealVectorStateSpace::StateType>();
+    const auto *B_vec = B->as<ompl::base::RealVectorStateSpace::StateType>();
+   
+
+    // Get the dimension from the state space
+    unsigned int dim = si_->getStateDimension();
+
+    // Map to Eigen vectors using the known dimension
+    Eigen::VectorXd PA = Eigen::Map<const Eigen::VectorXd>(P_vec->values, dim) - 
+                         Eigen::Map<const Eigen::VectorXd>(A_vec->values, dim);
+    Eigen::VectorXd AB = Eigen::Map<const Eigen::VectorXd>(B_vec->values, dim) - 
+                         Eigen::Map<const Eigen::VectorXd>(A_vec->values, dim);
+
+    double AB_length = AB.norm();
+
+    // Project point onto the segment
+    double t = (PA.dot(AB)) / (AB_length * AB_length);
+
+    // Clamp t to [0, 1] to stay within the segment
+    t = std::max(0.0, std::min(1.0, t));
+
+    // Compute the closest point on the segment
+    Eigen::VectorXd Q = Eigen::Map<const Eigen::VectorXd>(A_vec->values, dim) + t * AB;
+
+    // Return the distance between P and Q
+    return (Eigen::Map<const Eigen::VectorXd>(P_vec->values, dim) - Q).norm();
+}
+
+ompl::base::PlannerStatus ompl::geometric::SG23RRTstar::solve(const base::PlannerTerminationCondition &ptc)
 {
     checkValidity();
     base::Goal *goal = pdef_->getGoal().get();
@@ -189,7 +244,7 @@ ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::Planne
         infSampler_.reset();
     }
     // No else
-    const base::State *startstate = motion->state;
+    //const base::State *startstate = motion->state;
     if (nn_->size() == 0)
     {
         OMPL_ERROR("%s: There are no valid initial states!", getName().c_str());
@@ -251,7 +306,8 @@ ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::Planne
     {
         sampledStates[i] = si_->allocState();
     }
-
+    bool checkForInitialSolution = false;    
+    auto path1(std::make_shared<PathGeometric>(si_));
     while (ptc == false)
     {
         iterations_++;
@@ -261,9 +317,9 @@ ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::Planne
         // states.
         if (goal_s && goalMotions_.size() < goal_s->maxSampleCount() && rng_.uniform01() < goalBias_ &&
             goal_s->canSample())
-    {
+        {
             goal_s->sampleGoal(rstate);
-    }
+        }
         else
         {
             // Attempt to generate a sample, if we fail (e.g., too many rejection attempts), skip the remainder of this
@@ -275,31 +331,44 @@ ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::Planne
 		   
             if (!sampleUniform(rstate))
                 continue;
-	int bestIndex = 0;
-        double bestCombinedDist = std::numeric_limits<double>::infinity();
-
+	        int bestIndex = 0;
+            double bestCombinedDist = std::numeric_limits<double>::infinity();
         
-        for (int i = 0; i < 2; ++i) {
-            double goalDist;
-            goal->isSatisfied(sampledStates[i], &goalDist);           
+            for (int i = 0; i < 2; ++i) 
+            {
+	            si_->copyState(rstate, sampledStates[i]); 
+                nmotion = nn_->nearest(rmotion);
+	            double costToGo1 = si_->distance(nmotion->state, sampledStates[i]);
+	            double combinedDist;
 
-           
-            si_->copyState(rstate, sampledStates[i]); 
-            nmotion = nn_->nearest(rmotion);
-	    double costToCome = nmotion->cost.value() ;
-            double costToGo = si_->distance(nmotion->state, sampledStates[i]) + goalDist;
-            double combinedDist = costToCome + costToGo;
+                if(checkForInitialSolution == true)
+	            {
+		            combinedDist = minDistanceToPath(sampledStates[i],path1);
+                    OMPL_INFORM("checkForInitialSolution is true");
+
+	            }
+	            else
+                {
+                    OMPL_INFORM("checkForInitialSolution is false");
+		            double goalDist;
+            	    goal->isSatisfied(sampledStates[i], &goalDist);           
+                       
+	                double costToCome = nmotion->cost.value() ;
+                    double costToGo = costToGo1 + goalDist;
+                    combinedDist = costToCome + costToGo;
+	            }         
             
-            if (combinedDist < bestCombinedDist) {
-                bestCombinedDist = combinedDist;
-                bestIndex = i;
+                if (combinedDist < bestCombinedDist) 
+                {
+                    bestCombinedDist = combinedDist;
+                    bestIndex = i;
+                }
             }
+
+            // Copy the best state to rstate
+            si_->copyState(rstate, sampledStates[bestIndex]);      
+
         }
-
-       // Copy the best state to rstate
-        si_->copyState(rstate, sampledStates[bestIndex]);      
-
-    }
 
         // find closest state in the tree
         Motion *nmotion = nn_->nearest(rmotion);
@@ -516,6 +585,7 @@ ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::Planne
                     bestCost_ = bestGoalMotion_->cost;
                     updatedSolution = true;
 
+		            checkForInitialSolution = true;
                     OMPL_INFORM("%s: Found an initial solution with a cost of %.2f in %u iterations (%u "
                                 "vertices in the graph)",
                                 getName().c_str(), bestCost_.value(), iterations_, nn_->size());
@@ -540,7 +610,39 @@ ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::Planne
                             }
                         }
                     }
-                }
+                }		
+
+//start of newly added code
+		// Whenever a new goal motion is found:
+		//bestGoalMotion_ = goalMotion;  // Update the best goal motion
+		if(updatedSolution == true)
+		{
+		    // Construct the path from the goal motion back to the start
+		    std::vector<Motion *> mpath1;
+		    Motion *iterMotion1 = bestGoalMotion_;
+		    while (iterMotion1 != nullptr)
+		    {
+		        mpath1.push_back(iterMotion1);
+		        iterMotion1 = iterMotion1->parent;
+		    }
+      
+		    // Create the path using the stored motions
+		    for (int i = mpath1.size() - 1; i >= 0; --i)
+		    {
+		        path1->append(mpath1[i]->state);
+		    }
+      
+		    // Store the path as the current best solution
+		    //base::PlannerSolution psol(path);
+		    //psol.setPlannerName(getName());
+      
+		    // Optionally, update additional metadata like path cost, etc.
+		    //psol.setCost(computeCost(path));  // Assume computeCost is  a 			function that computes the path cost
+      
+		    // Add the solution path
+		    //pdef_->addSolutionPath(psol);
+        }
+//end of newly added code
 
                 if (updatedSolution)
                 {
@@ -593,7 +695,6 @@ ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::Planne
         newSolution = approxGoalMotion;
     }
     // No else, we have nothing
-
     // Add what we found
     if (newSolution)
     {
@@ -646,7 +747,7 @@ ompl::base::PlannerStatus ompl::geometric::SG22RRTstar::solve(const base::Planne
 }
 
 
-void ompl::geometric::SG22RRTstar::getNeighbors(Motion *motion, std::vector<Motion *> &nbh) const
+void ompl::geometric::SG23RRTstar::getNeighbors(Motion *motion, std::vector<Motion *> &nbh) const
 {
     auto cardDbl = static_cast<double>(nn_->size() + 1u);
     if (useKNearest_)
@@ -663,7 +764,7 @@ void ompl::geometric::SG22RRTstar::getNeighbors(Motion *motion, std::vector<Moti
     }
 }
 
-void ompl::geometric::SG22RRTstar::removeFromParent(Motion *m)
+void ompl::geometric::SG23RRTstar::removeFromParent(Motion *m)
 {
     for (auto it = m->parent->children.begin(); it != m->parent->children.end(); ++it)
     {
@@ -675,7 +776,7 @@ void ompl::geometric::SG22RRTstar::removeFromParent(Motion *m)
     }
 }
 
-void ompl::geometric::SG22RRTstar::updateChildCosts(Motion *m)
+void ompl::geometric::SG23RRTstar::updateChildCosts(Motion *m)
 {
     for (std::size_t i = 0; i < m->children.size(); ++i)
     {
@@ -684,7 +785,7 @@ void ompl::geometric::SG22RRTstar::updateChildCosts(Motion *m)
     }
 }
 
-void ompl::geometric::SG22RRTstar::freeMemory()
+void ompl::geometric::SG23RRTstar::freeMemory()
 {
     if (nn_)
     {
@@ -699,7 +800,7 @@ void ompl::geometric::SG22RRTstar::freeMemory()
     }
 }
 
-void ompl::geometric::SG22RRTstar::getPlannerData(base::PlannerData &data) const
+void ompl::geometric::SG23RRTstar::getPlannerData(base::PlannerData &data) const
 {
     Planner::getPlannerData(data);
 
@@ -719,7 +820,7 @@ void ompl::geometric::SG22RRTstar::getPlannerData(base::PlannerData &data) const
     }
 }
 
-int ompl::geometric::SG22RRTstar::pruneTree(const base::Cost &pruneTreeCost)
+int ompl::geometric::SG23RRTstar::pruneTree(const base::Cost &pruneTreeCost)
 {
     // Variable
     // The percent improvement (expressed as a [0,1] fraction) in cost
@@ -918,7 +1019,7 @@ int ompl::geometric::SG22RRTstar::pruneTree(const base::Cost &pruneTreeCost)
     return numPruned;
 }
 
-void ompl::geometric::SG22RRTstar::addChildrenToList(std::queue<Motion *, std::deque<Motion *>> *motionList, Motion *motion)
+void ompl::geometric::SG23RRTstar::addChildrenToList(std::queue<Motion *, std::deque<Motion *>> *motionList, Motion *motion)
 {
     for (auto &child : motion->children)
     {
@@ -926,7 +1027,7 @@ void ompl::geometric::SG22RRTstar::addChildrenToList(std::queue<Motion *, std::d
     }
 }
 
-bool ompl::geometric::SG22RRTstar::keepCondition(const Motion *motion, const base::Cost &threshold) const
+bool ompl::geometric::SG23RRTstar::keepCondition(const Motion *motion, const base::Cost &threshold) const
 {
     // We keep if the cost-to-come-heuristic of motion is <= threshold, by checking
     // if !(threshold < heuristic), as if b is not better than a, then a is better than, or equal to, b
@@ -939,7 +1040,7 @@ bool ompl::geometric::SG22RRTstar::keepCondition(const Motion *motion, const bas
     return !opt_->isCostBetterThan(threshold, solutionHeuristic(motion));
 }
 
-ompl::base::Cost ompl::geometric::SG22RRTstar::solutionHeuristic(const Motion *motion) const
+ompl::base::Cost ompl::geometric::SG23RRTstar::solutionHeuristic(const Motion *motion) const
 {
     base::Cost costToCome;
     if (useAdmissibleCostToCome_)
@@ -965,7 +1066,7 @@ ompl::base::Cost ompl::geometric::SG22RRTstar::solutionHeuristic(const Motion *m
     return opt_->combineCosts(costToCome, costToGo);            // add the two costs
 }
 
-void ompl::geometric::SG22RRTstar::setTreePruning(const bool prune)
+void ompl::geometric::SG23RRTstar::setTreePruning(const bool prune)
 {
     if (static_cast<bool>(opt_) == true)
     {
@@ -985,7 +1086,7 @@ void ompl::geometric::SG22RRTstar::setTreePruning(const bool prune)
     useTreePruning_ = prune;
 }
 
-void ompl::geometric::SG22RRTstar::setPrunedMeasure(bool informedMeasure)
+void ompl::geometric::SG23RRTstar::setPrunedMeasure(bool informedMeasure)
 {
     if (static_cast<bool>(opt_) == true)
     {
@@ -1028,7 +1129,7 @@ void ompl::geometric::SG22RRTstar::setPrunedMeasure(bool informedMeasure)
     }
 }
 
-void ompl::geometric::SG22RRTstar::setInformedSampling(bool informedSampling)
+void ompl::geometric::SG23RRTstar::setInformedSampling(bool informedSampling)
 {
     if (static_cast<bool>(opt_) == true)
     {
@@ -1076,7 +1177,7 @@ void ompl::geometric::SG22RRTstar::setInformedSampling(bool informedSampling)
     }
 }
 
-void ompl::geometric::SG22RRTstar::setSampleRejection(const bool reject)
+void ompl::geometric::SG23RRTstar::setSampleRejection(const bool reject)
 {
     if (static_cast<bool>(opt_) == true)
     {
@@ -1112,7 +1213,7 @@ void ompl::geometric::SG22RRTstar::setSampleRejection(const bool reject)
     }
 }
 
-void ompl::geometric::SG22RRTstar::setOrderedSampling(bool orderSamples)
+void ompl::geometric::SG23RRTstar::setOrderedSampling(bool orderSamples)
 {
     // Make sure we're using some type of informed sampling
     if (useInformedSampling_ == false && useRejectionSampling_ == false)
@@ -1140,7 +1241,7 @@ void ompl::geometric::SG22RRTstar::setOrderedSampling(bool orderSamples)
     }
 }
 
-void ompl::geometric::SG22RRTstar::allocSampler()
+void ompl::geometric::SG23RRTstar::allocSampler()
 {
     // Allocate the appropriate type of sampler.
     if (useInformedSampling_)
@@ -1169,7 +1270,7 @@ void ompl::geometric::SG22RRTstar::allocSampler()
     // No else
 }
 
-bool ompl::geometric::SG22RRTstar::sampleUniform(base::State *statePtr)
+bool ompl::geometric::SG23RRTstar::sampleUniform(base::State *statePtr)
 {
     // Use the appropriate sampler
     if (useInformedSampling_ || useRejectionSampling_)
@@ -1190,7 +1291,7 @@ bool ompl::geometric::SG22RRTstar::sampleUniform(base::State *statePtr)
     }
 }
 
-void ompl::geometric::SG22RRTstar::calculateRewiringLowerBounds()
+void ompl::geometric::SG23RRTstar::calculateRewiringLowerBounds()
 {
     const auto dimDbl = static_cast<double>(si_->getStateDimension());
 
